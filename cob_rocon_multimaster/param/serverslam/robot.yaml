@@ -10,7 +10,7 @@ default_flips:
        type: publisher
    - gateway: Server_Gateway
      rule:
-       name: .*map_upstream
+       name: /map_upstream.*
        node: None
        type: service
 
